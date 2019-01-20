@@ -1,5 +1,4 @@
 {
-  "extends": [
-    "arpinum/configurations/backend"
-  ]
+  "extends": ["arpinum/configurations/backend"],
+  "env": { "jest": true }
 }
