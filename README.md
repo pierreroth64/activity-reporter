@@ -1,3 +1,3 @@
-# activity report
+# activity reporter [![Build Status](https://travis-ci.org/pierreroth64/activity-reporter.svg?branch=master)](https://travis-ci.org/pierreroth64/activity-reporter)
 
-Script to generate a report for team's activity over several projects.
+CLI tool to generate a report for your company's activity over user-defined projects.
