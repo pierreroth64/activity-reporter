@@ -7,7 +7,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest",
+    "testw": "npm run jest -- --watch",
+    "test": "npm run jest; code=$?; npm run lint; exit $((${code}+$?))",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,18 @@
   "devDependencies": {
     "eslint": "5.12.1",
     "eslint-config-arpinum": "5.0.0",
+    "eslint-plugin-jest": "22.1.3",
+    "jest": "23.6.0",
     "prettier": "1.16.0"
+  },
+  "dependencies": {
+    "moment": "2.23.0",
+    "moment-business-days": "1.1.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/coverage/"
+    ]
   }
 }
