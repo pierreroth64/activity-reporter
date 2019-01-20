@@ -1,0 +1,27 @@
+{
+  "name": "activity-reporter",
+  "version": "1.0.0",
+  "description": "business activity reporter",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreroth64/activity-reporter.git"
+  },
+  "author": "Peio ROTH <pierreroth64@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierreroth64/activity-reporter/issues"
+  },
+  "homepage": "https://github.com/pierreroth64/activity-reporter#readme",
+  "devDependencies": {
+    "eslint": "5.12.1",
+    "eslint-config-arpinum": "5.0.0",
+    "prettier": "1.16.0"
+  }
+}

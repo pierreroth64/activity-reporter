@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "My company",
+    "year": 2019,
+    "commonHolidays": {
+      "days": [{ "from": "2019-08-01", "to": "2019-08-05" }],
+      "markedAs": "company day off"
+    },
+    "employeesHolidays": {
+      "markedAs": "employee day off"
+    }
+  },
+  "projects": [
+    { "name": "project name 1", "description": "my project 1 description" },
+    { "name": "project name 2", "description": "my project 2 description" },
+    { "name": "project name 3", "description": "my project 3 description" },
+    { "name": "project name 4", "description": "my project 4 description" }
+  ],
+  "employees": [
+    {
+      "name": "Bob",
+      "projects": [
+        { "name": "project name 1", "percentage": 30 },
+        { "name": "project name 2", "percentage": 60 },
+        { "name": "project name 4", "percentage": 10 }
+      ],
+      "holidays": {
+        "markedAs": "day off",
+        "days": [
+          "2019-01-23",
+          "2019-02-07",
+          "2019-03-10",
+          { "from": "2019-05-12", "to": "2019-05-19" }
+        ]
+      }
+    },
+    {
+      "name": "Alice",
+      "projects": [
+        { "name": "project name 1", "percentage": 10 },
+        { "name": "project name 2", "percentage": 20 },
+        { "name": "project name 3", "percentage": 30 },
+        { "name": "project name 4", "percentage": 40 }
+      ],
+      "holidays": {
+        "markedAs": "day off",
+        "days": [{ "from": "2019-08-12", "to": "2019-08-31" }]
+      }
+    }
+  ]
+}
